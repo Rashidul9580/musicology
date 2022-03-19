@@ -1,0 +1,465 @@
+* { 
+    margin: 0%; 
+    padding: 0%; 
+    box-sizing: border-box;
+}
+body{
+    overflow-x:hidden;
+}
+/* header part */
+#header {
+    background-color:black;
+    width: 100%; 
+    float: left;
+}
+
+.conteiner { 
+    width: 90%; 
+    margin: auto;
+}
+.logo-part {
+    width: 20.33%;
+    float: left;
+}
+.logo-part img {
+    width: 35%;
+}
+.menu-part {
+    margin-top: 22px;
+    width: 69.33%;
+    float: left;
+    text-align: end;
+    font-size: 20px;
+}
+.menu-part ul { 
+    margin-top: 15px;
+}
+.menu-part li { 
+    display: inline-block;
+}
+.menu-part a { 
+    font-weight:0px; 
+    margin: 10px; 
+    padding: 5px 10px; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.menu-part a:hover{
+    background-color:#ff4500;
+    transition: 1.5s;
+}
+.search-part {
+    margin-top: 42px;
+    width: 10.33%;
+    float: left;
+    text-align: end;
+    color:white;
+}
+.search-part i{
+    font-size: 20px;
+    cursor: pointer;
+}
+.search-part i:hover{
+    color: orangered;
+    transition: 1.5s;
+}
+/* hero part */
+#hero {
+    background-image: url(../img/backround.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    background-image: block;
+    height: 100vh;
+    width: 100%;
+    float: left;
+    margin: 0px;
+    
+}
+.hero-writing-part { 
+   margin-top:15%;
+}
+.hero-writing-part h1 { 
+    color: white;
+    font-size: 50px;
+}
+.hero-writing-part p { 
+    width: 40%;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.hero-writing-part button { 
+    padding:12px 34px;
+    background-color: orangered;
+    color: white; 
+    margin-top: 10px; 
+    font-size: 20px; 
+    font-weight: bold;
+    margin-top: 3%;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.hero-writing-part button:hover {
+    background-color: orange; 
+    transition: 2s;
+}
+/* about part */
+#about{
+    background-color: orangered;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.about-writing-part{
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+.about-writing-part h2{
+    font-size: 50px;
+    margin-top: 100px;
+    color: white;
+}
+.about-writing-part p{
+    width:60%;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 20px;
+    color: white;
+}
+.about-box-part{
+    width: 100%;
+    float: left;
+    margin: 0px 10px;
+}
+.box-part{
+    background-color: rgb(27, 27, 27);
+    width: 30%;
+    float: left;
+    margin: 0px 1.5%;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+.box-part img{
+    width: 100%;
+    border-radius: 10px;
+}
+.box-part h2{
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+.box-part p{
+    font-size: 18px;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+.x{
+    height: 607px;
+}
+/* pricing-about */
+#pricing{
+    width: 100%;
+    float: left;
+    background-color: rgba(27, 26, 26, 0.89);
+    text-align: center;
+}
+.pricing-about{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    float: left;
+    width: 100%;
+}
+.pricing-about h2{
+    color: white;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.pricing-about p{
+    width: 60%;
+    margin: auto;
+    margin-top: 25px;
+    color: white;
+    font-size: 22px;
+}
+.pricing-box{
+    margin: 0px 50px;
+    width: 100%;
+    float: left;
+    margin-bottom: 120px;
+}
+.box1{
+    margin-top: 10px;
+    width: 26%;
+    float: left;
+    height: 500px;
+    margin: 0px 2.5%;
+    border-radius: 10px;
+    background-color: orangered;
+}
+.pricing-box img{
+    margin-top: 10px;
+
+}
+.pricing-box h2{
+    font-size: 40px;
+    margin-top: 30px;
+    color: white;
+}
+.pricing-box p{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.pricing-box a{
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 5px 90px;
+    background-color: rgb(36, 33, 33);
+}
+.pricing-box a:hover{
+    color: red;
+    background-color: white;
+    transition: 2s;
+}
+/* about dance part */
+#about-dance{
+    width: 100%;
+    float: left;
+    margin: -4px;
+}
+.about-dance-img{
+    float: left;
+    width: 50%;
+}
+.about-dance-img img{
+    width: 100%;
+
+}
+.about-dance-writing{
+    width:50%;
+    padding: 17.9% 0%;
+    float: left;
+    text-align: left;
+    background-color: orangered;
+}
+.about-dance-writing h2{
+    color: white;
+    font-size: 55px;
+    margin: 50px 70px;
+}
+.about-dance-writing p{
+    color: white;
+    font-size: 30px;
+    margin: 0px 0px 0px 70px;
+}
+.about-dance-writing button{
+    color: white;
+    margin: 100px 70px;
+    padding: 15px 75px;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(43, 40, 40);
+}
+.about-dance-writing button:hover{
+    color: red;
+    background-color: white;
+    transition: 2s;
+}
+/* This is pera */
+#our-statistics{
+    width: 100%;
+    float: left;
+    margin-top: -4px;
+    background-color: rgb(53, 52, 52);
+    text-align: center;
+}
+.our-statistic-writing{
+    margin-top: 140px;
+    margin-bottom: 150px;
+    float: left;
+    width: 100%;
+}
+.our-statistic-writing h2{
+    font-size: 60px;
+    margin-bottom: 40px;
+    color: white;
+    
+}
+.our-statistic-writing p{
+    font-size: 30px;
+    color: white;
+    width: 60%;
+    margin: auto;
+}
+.counting{
+    width: 100%;
+}
+.counting1{
+    width: 30%;
+    margin: 0px 20.5px;
+    float: left;
+}
+.counting1 h2{
+    /* margin-top: 40px; */
+    font-size: 60px;
+    color: white;
+    margin-bottom: 20px;
+}
+.counting1 h3{
+    color: white;
+    font-size:40px;
+    margin-bottom: 150px;
+}
+/* This is pera 2 */
+#simon{
+    background-image: url(../img/Dance\ fad.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 800px;
+    width:100%;
+    float: left;
+    margin: 0px;
+}
+.herbert{
+    width: 100%;
+    margin-top: 25%;
+}
+.herbert p{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.herbert h2{
+    font-size: 40px;
+    color: white;
+    width: 100%;
+    margin-top: 60px;
+    text-align: center;
+}
+/* This is subscribe */
+#subscribe{
+    width: 100%;
+    background-color: #ff4500;
+    text-align:center;
+}
+.subscribe-writing{
+    width: 100%;
+}
+.subscribe-writing h2{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.subscribe-writing p{
+    font-size: 30px;
+    color: white;
+    width: 50%;
+    margin: auto;
+}
+.subscribe-box{
+    margin-top: 50px;
+}
+.subscribe-box input{
+    border: none;
+    border-radius: 2px;
+    font-size: 30px;
+    padding: 15px 200px 15px 10px;
+}
+.subscribe-box a input{
+    color: white;
+    margin: -4px;
+    padding: 15px 30px;
+    background-color: rgb(31, 29, 29);
+    margin-bottom: 160px;
+    cursor: pointer;
+}
+.subscribe-box a input:hover{
+    background-color: #ff4500;
+    color: black;
+}
+
+#fotwer{
+    background-color: rgb(37, 36, 36);
+    width: 100%;
+    float: left;
+}
+.musiccology{
+    width: 40%;
+    float: left;
+    margin-top: 60px;
+    text-align: left;
+}
+.musiccology h2{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.musiccology p{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.musiccology i{
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 100px;
+    margin: 0px 10px;
+    margin-bottom: 80px;
+}
+.musiccology i:hover{
+    background-color: green;
+    color: white;
+}
+.about{
+    width: 20%;
+    float: left;
+    margin-top: 60px;
+    text-align:left;
+    position: relative;
+}
+.about h2{
+    font-size: 35px;
+    margin-bottom: 40px;
+    color: white;
+}
+.about ul li{
+    list-style: none;
+    line-height: 35px;
+}
+.about ul li a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.about ul li a:hover{
+    color: #ff4500;
+}
+.fotwer{
+    width: 90%;
+    float: left;
+    color: #ff4500;
+    margin: 20px 50px;
+    text-align: center;
+    font-size: 15px;
+}
